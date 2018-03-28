@@ -1,5 +1,5 @@
-$( document ).ready(function() {
-    var canvas = document.getElementById('canvas');
+$(document).ready(function() {
+    var canvas = $('#canvas')[0];
     var ctx = canvas.getContext('2d');
 
     $(document).keypress(function(key) {
