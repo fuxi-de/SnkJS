@@ -15,7 +15,7 @@ var browserify = require('browserify');
 
 
 var config = {
-    styleSource: './sass/imports.scss',
+    styleSource: './sass/main.scss',
     jsSource: './js/',
     bootstrapDir: '../node_modules/bootstrap/scss/bootstrap.scss',
     jsFilename: 'main'
@@ -36,7 +36,7 @@ gulp.task('styles-minified', function() {
 			})) // Leerzeichen entfernen
 			.pipe(plumber.stop()) // Keep Gulp running
 			.pipe(sourcemaps.write('/maps')) // create sourcemap
-			.pipe(gulp.dest('../static/css/')) // Speichere Minifizierte CSS Datei in css-Ordner
+			.pipe(gulp.dest('./static/css/')) // Speichere Minifizierte CSS Datei in css-Ordner
 	});
 
 gulp.task('scripts', function(){
