@@ -1,2 +1,2 @@
-#jsSnk{display:block;margin:auto;margin-top:10%;border:1px solid #000}
+@font-face{font-family:Girl;src:url(../../static/fonts/TheGirlNextDoor.ttf)}.main{display:-ms-flexbox;display:flex;margin:auto;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;height:100%}.main img{max-width:300px;padding:15px}.main h1{font-family:Girl;font-size:6rem;color:#3c474b;margin-left:15px}
 /*# sourceMappingURL=maps/style.min.css.map */

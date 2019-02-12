@@ -1,6 +1,31 @@
-#jsSnk{
-  display:block;
+@font-face {
+  font-family: "Amaranth";
+  src: url("../../static/fonts/Amaranth-Regular.ttf");
+}
+@font-face {
+  font-family: "Amaranth Italic";
+  src: url("../../static/fonts/Amaranth-Italic.ttf");
+}
+@font-face {
+  font-family: "Girl";
+  src: url("../../static/fonts/TheGirlNextDoor.ttf");
+}
+    
+.main{
+  display:flex;
   margin:auto;
-  margin-top:10%;
-  border:1px solid black;
+  align-items:center;
+  justify-content: center;
+  height:100%;
+  img{
+    max-width:300px;
+    //border:1px solid black;
+    padding:15px;
+  }
+  h1{
+    font-family: "Girl";
+    font-size:6rem;
+    color: #3C474B;
+    margin-left:15px;
+  }
 }
